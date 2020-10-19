@@ -22,7 +22,7 @@
 		      <td><img src="/img/<?= $k['sampul']; ?>" class="sampul"></td>
 		      <td><?= $k['judul'] ?></td>
 		      <td>
-		      	<a href="" class="btn-sm btn-success">Detail</a>
+		      	<a href="/komik/<?= $k['slug']; ?>" class="btn-sm btn-success">Detail</a>
 		      </td>
 		    </tr>
 			<?php endforeach; ?>
